@@ -1,0 +1,85 @@
+hr{
+ 
+    border: 1px black solid;
+    width: 50px;
+    position: absolute; 
+}
+
+strong{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+
+table{
+    top:0;
+    margin: 0;
+}
+
+.comentario1{
+    color: black;
+    z-index: 1;
+    top: 14.2em;
+    left: 3.2em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.comentario2{
+    color: black;
+    z-index: 1;
+    top: 12.8em;
+    left: 14.7em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.comentario3{
+    color: black;
+    z-index: 1;
+    top: 11.2em;
+    left: 31em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.comentario4{
+    color: black;
+    z-index: 1;
+    top: 23em;
+    left: 3.8em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.comentario5{
+    color: black;
+    z-index: 1;
+    top: 21.5em;
+    left: 17.5em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.comentario6{
+    color: black;
+    z-index: 1;
+    top: 20.1em;
+    left: 31em;
+    position: relative;
+    font-size: 0.72em;
+}
+
+.titulo{
+    position: absolute;
+}
+
+.tabla{
+    position: relative;
+    
+    top: -55px;
+}
+
+td{
+    width: 150px;
+    height: 150px;
+}
