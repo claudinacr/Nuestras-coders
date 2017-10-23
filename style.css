@@ -1,85 +1,40 @@
-hr{
- 
-    border: 1px black solid;
-    width: 50px;
-    position: absolute; 
-}
-
-strong{
-    font-size: 1.5em;
-    margin-top: 2em;
-}
-
-table{
-    top:0;
-    margin: 0;
-}
-
-.comentario1{
-    color: black;
-    z-index: 1;
-    top: 14.2em;
-    left: 3.2em;
-    position: relative;
-    font-size: 0.72em;
-}
-
-.comentario2{
-    color: black;
-    z-index: 1;
-    top: 12.8em;
-    left: 14.7em;
-    position: relative;
-    font-size: 0.72em;
-}
-
-.comentario3{
-    color: black;
-    z-index: 1;
-    top: 11.2em;
-    left: 31em;
-    position: relative;
-    font-size: 0.72em;
-}
-
-.comentario4{
-    color: black;
-    z-index: 1;
-    top: 23em;
-    left: 3.8em;
-    position: relative;
-    font-size: 0.72em;
-}
-
-.comentario5{
-    color: black;
-    z-index: 1;
-    top: 21.5em;
-    left: 17.5em;
-    position: relative;
-    font-size: 0.72em;
-}
-
-.comentario6{
-    color: black;
-    z-index: 1;
-    top: 20.1em;
-    left: 31em;
-    position: relative;
-    font-size: 0.72em;
-}
-
 .titulo{
-    position: absolute;
+  font-size: 150%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 140px 140px 140px;
+  grid-gap: 20px;
+  background-color: #fff;
+  color: #444;
 }
 
-.tabla{
-    position: relative;
-    
-    top: -55px;
+hr{
+  height: 7px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: black;
+  margin-left: 0;
 }
 
-td{
-    width: 150px;
-    height: 150px;
+.coder {
+  color: #fff;
+  position: relative;
+}
+
+.coder img{
+  height: auto;
+  width: 100%;
+  z-index: -1;
+  /* border-radius: 5px; */
+}
+
+.coder .text{
+  z-index: 100;
+  position: absolute;
+  right: 3%;
+  bottom: 6%;
+  text-shadow: 1px 1px #000000;
+  font-weight: bold;
+
 }
